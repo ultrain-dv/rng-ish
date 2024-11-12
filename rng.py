@@ -1,5 +1,6 @@
 import random
 import os
+import time
 
 while True:
     rng = random.randint(1, 10)
@@ -11,10 +12,10 @@ while True:
     rinput = input("[?]: ")
     if rinput == "1":
         print("Rolling...")
-        os.system("clear")
         time.sleep(1)
+        os.system("clear")
         print(rng)
-        os.system('pause')
+        time.sleep(1)
 
         
     elif rinput == "2":
