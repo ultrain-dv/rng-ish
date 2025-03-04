@@ -1,6 +1,5 @@
 import random
 import os
-import time
 
 
 while True:
@@ -8,18 +7,13 @@ while True:
 
     os.system("clear")
     
-    print("1. Roll \n2. Exit \nOr press Enter to Roll")
+    print(rng)
+    print("----------------")
+    print("Press Enter To Roll \n2. Exit")
     
     rinput = input("[?]: ")
-    if rinput == "1":
+    if rinput == "":
         os.system("clear")
-        print(rng)
-        time.sleep(1)
-
-    elif rinput == "":
-        os.system("clear")
-        print(rng)
-        time.sleep(1)
 
     elif rinput == "2":
         quit()
