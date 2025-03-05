@@ -1,1 +1,1 @@
-# rngtrain
+# RNrich
