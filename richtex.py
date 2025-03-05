@@ -14,8 +14,9 @@ while True:
     rnoutput = Text(f"{rng}", style="bold #add8e6", justify="center")
     console.print(Panel(rnoutput, border_style="#00008B"))
     
-    print("Press Enter To Roll \n2. Exit")
-    
+    console.print("Press Enter To Roll", style="bold #add8e6")
+    console.print("To Exit, the program. [bold red]Press 2[/bold red]")
+
     rinput = input("[?]: ")
     if rinput == "":
         os.system("clear")

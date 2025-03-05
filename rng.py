@@ -1,21 +1,29 @@
 import random
 import os
+from rich.console import Console
+from rich.text import Text
+from rich.panel import Panel
 
+console = Console()
 
 while True:
-    rng = random.randint(1, 999999999999)
+    rng = random.randint(1, 100)
 
     os.system("clear")
-    
+
     print(rng)
-    print("----------------")
-    print("Press Enter To Roll \n2. Exit")
+
+    print("-----------")
     
+    print("Press Enter To Roll")
+    print("To Exit, the program. Press 2")
+
     rinput = input("[?]: ")
     if rinput == "":
         os.system("clear")
 
     elif rinput == "2":
+        os.system("clear")
         quit()
 
     else:
