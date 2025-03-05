@@ -1,1 +1,1 @@
-# RNrich
+# RNG-ish
