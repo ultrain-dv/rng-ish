@@ -7,12 +7,12 @@ from rich.panel import Panel
 console = Console()
 
 while True:
-    rng = random.randint(1, 999999999999)
+    rng = random.randint(1, 100)
 
     os.system("clear")
 
-    rnoutput = Text(f"{rng}", style="bold #90ee90" justify="center")
-    console.print(Panel(rnoutput, border_style="red"))
+    rnoutput = Text(f"{rng}", style="bold #add8e6", justify="center")
+    console.print(Panel(rnoutput, border_style="#00008B"))
     
     print("Press Enter To Roll \n2. Exit")
     
